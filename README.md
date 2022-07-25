@@ -1,4 +1,4 @@
-# Professional README Generator using Node.js
+# Node.js README Generator
 
 
 [How to create a Professional README](https://coding-boot-camp.github.io/full-stack/github/professional-readme-guide)
