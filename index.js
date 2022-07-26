@@ -1,10 +1,12 @@
-// TODO: Include packages needed for this application
+// still need to do:
+// fix markdown table of contents
+// write new questions
+// license parts in generateMarkdown
+
 const inquirer = require('inquirer');
+const generateMarkdown = require('./main/generateMarkdown');
 const { writeFile } = require('fs').promises;
-const markdown = require('./main/generateMarkdown');
 
-
-// TODO: Create an array of questions for user input
 const promptUser = () => {
     return inquirer.prompt([
         {
@@ -34,7 +36,7 @@ const promptUser = () => {
         },
         {
             type: 'input',
-            name: 'test',
+            name: 'tests',
             message: 'What are the test instructions?',
         },
         {
@@ -55,13 +57,12 @@ const promptUser = () => {
     ]);
 }
 
-
-
-// TODO: Create a function to write README file
-function writeToFile(fileName, data) {}
-
-// TODO: Create a function to initialize app
-function init() {}
-
-// Function call to initialize app
-init();
+const init = () => {
+    promptUser() 
+        // Use writeFile method imported from fs.promises
+      .then((data) => writeFile('testREADME.md', generateMarkdown(data)))
+      .then(() => console.log('Successfully wrote to README.md'))
+      .catch((err) => console.error(err));
+  };
+  
+  init();
