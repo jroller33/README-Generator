@@ -2,6 +2,7 @@
 // fix markdown table of contents
 // write new questions
 // license parts in generateMarkdown
+//
 
 const inquirer = require('inquirer');
 const generateMarkdown = require('./main/generateMarkdown');
