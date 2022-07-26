@@ -39,10 +39,10 @@ function generateMarkdown(data) {
   ## Table of Contents
   - [Installation](#installation)
   - [Usage](#usage)
-  - [How to Contribute](#How to Contribute)
+  - [Contribution](#contribution)
   - [Tests](#tests)
   - [License](#license)
-  - [Contact](#Contact)
+  - [Contact](##Contact)
   
   ## Installation
   ${data.installation}
@@ -50,7 +50,7 @@ function generateMarkdown(data) {
   ## Usage
   ${data.usage}
 
-  ## How to Contribute
+  ## Contribution
   ${data.contribution}
   
   ## Tests
