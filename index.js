@@ -1,7 +1,8 @@
 // still need to do:
+
+// change testREADME.md to README.md    ***********
 // fix markdown table of contents
 // write new questions
-// license parts in generateMarkdown
 //
 
 const inquirer = require('inquirer');
@@ -40,7 +41,7 @@ const promptUser = () => {
             name: 'tests',
             message: 'What are the test instructions?',
         },
-        {                                                               //
+        {
             type: 'list',
             name: 'license',
             message: 'Select the license for your project:',
