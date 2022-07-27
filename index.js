@@ -40,10 +40,11 @@ const promptUser = () => {
             name: 'tests',
             message: 'What are the test instructions?',
         },
-        {
-            type: 'input',                              //      ******  different type
+        {                                                               //
+            type: 'list',
             name: 'license',
-            message: 'Select the license for your project?',
+            message: 'Select the license for your project:',
+            choices: ["MIT", "GNU", "Apache", "BSD"],
         },
         {
             type: 'input',
