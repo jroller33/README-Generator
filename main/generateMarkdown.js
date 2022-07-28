@@ -50,10 +50,9 @@ function generateMarkdown(data) {
   // console.log(data);
   return `
   # ${data.title}
-  ## Description
-  
   ${renderLicenseBadge(data.license)}
-  
+  ## Description
+
   ${data.description}
   ## Table of Contents
   - [Installation](#installation)
@@ -76,10 +75,8 @@ function generateMarkdown(data) {
   ${data.tests}
 
   ## License
-  ${renderLicenseLink(data.license)}
-  
   ${renderLicenseSection(data.license)}
-
+  ${renderLicenseLink(data.license)}
 
   ## Contact
   GitHub: ${data.contact} <br/>
