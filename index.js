@@ -63,7 +63,7 @@ const promptUser = () => {
 const init = () => {
     promptUser() 
         // Use writeFile method imported from fs.promises
-      .then((data) => writeFile('README.md', generateMarkdown(data)))
+      .then((data) => writeFile('README1.md', generateMarkdown(data)))
       .then(() => console.log('Successfully wrote to README.md'))
       .catch((err) => console.error(err));
   };
