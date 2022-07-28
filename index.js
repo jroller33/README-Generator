@@ -1,7 +1,8 @@
 // still need to do:
 
 // change testREADME.md to README.md    ***********
-// fix markdown table of contents
+// readme needs screenshot, link to screenrecording
+
 // write new questions
 //
 
@@ -29,7 +30,7 @@ const promptUser = () => {
         {
             type: 'input',
             name: 'usage',
-            message: 'What is the usage information?',
+            message: 'How do you use your project?',
         },
         {
             type: 'input',
@@ -50,7 +51,7 @@ const promptUser = () => {
         {
             type: 'input',
             name: 'contact',
-            message: 'What is your GitHub username?',
+            message: 'What is the link to your GitHub account?',
         },
         {
             type: 'input',
@@ -63,7 +64,7 @@ const promptUser = () => {
 const init = () => {
     promptUser() 
         // Use writeFile method imported from fs.promises
-      .then((data) => writeFile('README1.md', generateMarkdown(data)))
+      .then((data) => writeFile('READMEtest.md', generateMarkdown(data)))
       .then(() => console.log('Successfully wrote to README.md'))
       .catch((err) => console.error(err));
   };
