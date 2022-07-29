@@ -37,7 +37,7 @@
 
 #
   ## Video Demo Link
-  You can find a video demonstration at the following link:
+  You can find a video demonstration at the following link: <br/>
   https://drive.google.com/file/d/1FFP2hJO-W6df3oiO75QI6TaVsSJ5okVf/view
 
   ## Contribution
