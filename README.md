@@ -13,7 +13,7 @@
   - [Contribution](#contribution)
   - [Tests](#tests)
   - [License](#license)
-  - [Contact](#Contact)
+  - [Contact](#contact)
   
   ## Installation
   1. Clone the repo (https://github.com/jroller33/README-Generator)
