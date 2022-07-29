@@ -51,7 +51,7 @@ const promptUser = () => {
         {
             type: 'input',
             name: 'contact',
-            message: 'What is the link to your GitHub account?',
+            message: 'What is your GitHub username?',
         },
         {
             type: 'input',
@@ -64,7 +64,7 @@ const promptUser = () => {
 const init = () => {
     promptUser() 
         // Use writeFile method imported from fs.promises
-      .then((data) => writeFile('READMEtest.md', generateMarkdown(data)))
+      .then((data) => writeFile('README.md', generateMarkdown(data)))
       .then(() => console.log('Successfully wrote to README.md'))
       .catch((err) => console.error(err));
   };
