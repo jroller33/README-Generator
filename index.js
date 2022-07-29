@@ -1,11 +1,3 @@
-// still need to do:
-
-// change testREADME.md to README.md    ***********
-// readme needs screenshot, link to screenrecording
-
-// write new questions
-//
-
 const inquirer = require('inquirer');
 const generateMarkdown = require('./main/generateMarkdown');
 const { writeFile } = require('fs').promises;
