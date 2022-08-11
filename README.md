@@ -39,7 +39,7 @@
 #
 
   ## Sample README Link
-  [Sample README](https://github.com/jroller33/README-Generator/blob/main/sampleREADME.md)
+  [Sample README](https://github.com/jroller33/README-Generator/blob/main/main/sampleREADME.md)
 
   ## Video Demo Link
   [Video Demo](https://youtu.be/tVjhJtsIsuI)
