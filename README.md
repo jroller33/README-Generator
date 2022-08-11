@@ -9,6 +9,7 @@
   - [Installation](#installation)
   - [Usage](#usage)
   - [Screenshots](#screenshots)
+  - [Sample README Link](#sample-readme-link)
   - [Video Demo Link](#video-demo-link)
   - [Contribution](#contribution)
   - [Tests](#tests)
@@ -36,9 +37,15 @@
   ![README.md](./main/screenshotReadme.png)
 
 #
+
+  ## Sample README Link
+  [Sample README](https://github.com/jroller33/README-Generator/blob/main/sampleREADME.md)
+
   ## Video Demo Link
-  You can find a video demonstration at the following link: <br/>
-  https://drive.google.com/file/d/1FFP2hJO-W6df3oiO75QI6TaVsSJ5okVf/view
+  [Video Demo](https://youtu.be/tVjhJtsIsuI)
+  
+
+
 
   ## Contribution
   You can contribute at https://github.com/jroller33/README-Generator
