@@ -44,19 +44,16 @@
   ## Video Demo Link
   [Video Demo](https://youtu.be/tVjhJtsIsuI)
   
-
-
-
+  
   ## Contribution
   You can contribute at https://github.com/jroller33/README-Generator
   
   ## Tests
-  There are currently no tests for this application.
+  There are no tests for this application.
 
   ## License
   This project is licensed under the MIT License. <br/>
   https://www.mit.edu/~amini/LICENSE.md
 
   ## Contact
-  GitHub: https://github.com/jroller33 <br/>
-  Email: jr@gmail.com
+  GitHub: https://github.com/jroller33
