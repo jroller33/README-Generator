@@ -19,7 +19,7 @@
   You can use this project in many different ways, as long as you follow the License this project is covered by.
 
   ## Contribution
-  You can contribute to this project at the GitHub repo.
+
   
   ## Tests
   You can test this app by running `npm test`
